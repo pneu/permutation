@@ -8,8 +8,9 @@ exception TooFewArgumentsException
 let main argv =
     try
         if Array.isEmpty argv then raise TooFewArgumentsException
-        let p = permutate (Array.toList argv)
-        printfn "%A" p
+        permutate (Array.toList argv)
+        |> List.collect (fun cats -> joinsBy [ "-"; "_"; " "; "" ] cats)
+        |> printfn "%A"
         0
     with :? TooFewArgumentsException ->
         eprintfn "Too few Arguments"
