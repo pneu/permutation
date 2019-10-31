@@ -6,7 +6,8 @@
     <ProjectReference Include="..\Permutation\Permutation.fsproj" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tests.fs" />
+    <Compile Include="JoinTests.fs" />
+    <Compile Include="PermutateTests.fs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FsUnit.xUnit" Version="3.5.0" />
