@@ -1,4 +1,4 @@
-module Program
+﻿module Program
 
 open Permutation
 open Join

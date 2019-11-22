@@ -6,6 +6,5 @@
     <Compile Include="Combination.fs" />
     <Compile Include="Join.fs" />
     <Compile Include="Permutation.fs" />
-    <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
