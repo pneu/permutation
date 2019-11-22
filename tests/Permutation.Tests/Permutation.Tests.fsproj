@@ -3,14 +3,14 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Permutation\Permutation.fsproj" />
+    <ProjectReference Include="..\..\lib\Permutation\Permutation.fsproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Utility.fs" />
     <Compile Include="CombinationTests.fs" />
     <Compile Include="JoinsByTests.fs" />
     <Compile Include="PermutationTests.fs" />
-    <Compile Include="../Common/CommonAssemblyInfo.fs" />
+    <Compile Include="../../Common/CommonAssemblyInfo.fs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FsUnit.XUnit" Version="3.7.0" />
